@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://RichardSqd.github.io/cleanfolio',
-  title: 'JS.',
+  title: '',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Richard Sun',
-  role: 'Software Engineer',
+  role: 'Software Engineer', 
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: '',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: '',
+    github: 'https://github.com/RichardSqd',
   },
 }
 
@@ -21,46 +21,50 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Multi-threaded DX12 Renderer',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A multithreaded renderer based on DirectX 12, this project explores various rendering techniques and incorporates experimental features. It supports glTF 2.0, Physically Based Rendering(PBR), Imaged based lighting(IBL), HDRI mapping, MSAA and a lot more techniques.',
+    stack: ['DirectX 12', 'C++', 'HLSL', "GPU"],
+    sourceCode: 'https://github.com/RichardSqd/VisualEngine',
+    livePreview: '',
   },
   {
-    name: 'Project 2',
+    name: 'Offline PathTracing Renderer',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An offline renderer based on the path tracing algorithm. It uses Bounding Box Hierarchy (BVH) for primitive intersaction dection and adaptive sampling for high efficiency. Multiple specialized materials such as glass, mirror, and microfacet are also implemented as a part of the renderer.',
+    stack: ['C++', 'Ray-tracing', "Optimization", "Materials"],
+    sourceCode: 'https://github.com/RichardSqd/Pathtracer',
+    livePreview: '',
   },
   {
-    name: 'Project 3',
+    name: 'Containerized Web Development',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Built and deployed a containerized web app using Azure Pipeline, Docker, Docker-compose, and Nginx. This app consists of both backend and front end part. The backend part is developed using .NET Core, Entity Framework, MySQL, and MongoDB. An CI/CD pipeline was developed and configured on Azure DevOps.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: '',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  "C++",
+  "C#",
+  "Python",
+  "Unix",
+  "DirectX 12",
+  "PIX",
+  "RenderDoc",  
+  "VTK",
+  "UE5",
+  "Autodesk Maya",
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  "Docker",
+  "MySQL",
+  "CAD/CAM",
+  "Autodesk Fusion360"
+
 ]
 
 const contact = {
