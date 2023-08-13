@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'Multi-threaded DX12 Renderer',
     description:
-      'A multithreaded renderer based on DirectX 12, this project explores various rendering techniques and incorporates experimental features. It supports glTF 2.0, Physically Based Rendering(PBR), Imaged based lighting(IBL), HDRI mapping, MSAA and a lot more techniques.',
+      'A multithreaded renderer based on DirectX 12, this project explores various rendering techniques and incorporates experimental features. It supports glTF 2.0, Physically Based Rendering(PBR), Imaged based lighting(IBL), HDRI mapping, MSAA and a lot more techniques. It also allows real time rendering modifications and inspection of core statistics through ImGui windows.',
     stack: ['DirectX 12', 'C++', 'HLSL', "GPU"],
     sourceCode: 'https://github.com/RichardSqd/VisualEngine',
     livePreview: '',
@@ -40,7 +40,7 @@ const projects = [
     name: 'Containerized Web Development',
     description:
       'Built and deployed a containerized web app using Azure Pipeline, Docker, Docker-compose, and Nginx. This app consists of both backend and front end part. The backend part is developed using .NET Core, Entity Framework, MySQL, and MongoDB. An CI/CD pipeline was developed and configured on Azure DevOps.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['.NET Core', 'Entity Framework', 'MySQL', "MongoDB", "Nginx", "Azure", "CI/CD"],
     sourceCode: 'https://github.com',
     livePreview: '',
   },
