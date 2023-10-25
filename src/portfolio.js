@@ -9,7 +9,7 @@ const about = {
   name: 'Richard Sun',
   role: 'Software Engineer', 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I\'m Qidong(Richard), a passionate software engineer with a keen interest in Computer Graphics and Computer Vision, also a hardware engineer focusing on the development and integration of high performance heat exchanger for desktop and laptop platforms. I\'m dedicated to crafting visually stunning experiences and optimizing hardware for peak performance. Let\'s code, create, and innovate together!',
   resume: '',
   social: {
     linkedin: '',
